@@ -1,0 +1,468 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd{
+    margin: 0;
+    padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+b,strong{
+    font-weight: normal;
+}
+em,i{
+    font-style: normal;
+}
+img{
+    display: block;
+}
+/* 头部 */
+header{
+    width: 100%;
+    height: 100px;
+}
+.head{
+    width: 1001px;
+    height: 100px;
+    margin:0 auto;
+}
+h1{
+    width: 205px;
+    height: 80px;
+    float: left;
+    padding-top:20px; 
+}
+.headR{
+    width: 796px;
+    height: 63px;
+    float: left;
+    padding-top: 37px;
+}
+.headR .p1{
+    width: 794px;
+    background: #fefff1;
+    border:1px solid #fecd66;
+    line-height: 24px;
+    font-size: 12px;
+    text-align: center;
+}
+.headR .p2{
+    width: 162px;
+    height: 18px;
+    margin:8px 0 0 633px;
+}
+.headR .p2 a{
+    display: inline-block;
+    height: 18px;
+    overflow: hidden;
+}
+.headR .p2 i{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../images/sprite.png) -67px -27px no-repeat;
+    float: left;
+    margin-right: 10px;
+}
+.headR .p2 em{
+    font-size: 12px;
+    color: #333333;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    float: left;
+}
+.headR .p2 em:hover{
+    color: #f60;
+}
+/* 广告图 */
+
+.banner{
+    width: 100%;
+    height:570px;
+    background: url(../images/qqq.jpg) center no-repeat;
+}
+.bannerBx{
+    width: 1001px;
+    height: 570px;
+    margin:0 auto;
+    position: relative;
+}
+.saomaZhanghu{
+    width: 360px;
+    height:410px;
+    background: #fff;
+    position: absolute;
+    top:50px;
+    right: 30px;
+}
+.saomaZhanghuBt{
+    width: 360px;
+    height: 50px;
+    border-bottom: 1px solid #eeeeee;
+}
+.saomaZhanghuBt .span1{
+    display: inline-block;
+    width: 179px;
+    height:20px;
+    border-right: 1px solid #eeeeee; 
+    margin-top: 15px;
+    float: left;
+    position: relative;
+}
+.saomaZhanghuBt .span1 a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+}
+.saomaZhanghuBt .span1 i{
+    display: inline-block;
+    width: 70px;
+    height: 3px;
+    background: #f60;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    margin-left: -35px;
+}
+.saomaZhanghuBt .span2{
+    display: inline-block;
+    width: 180px;
+    height:20px;
+    margin-top: 15px;
+    float: left;
+    position: relative;
+}
+.saomaZhanghuBt .span2 a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+}
+.saomaZhanghuBt .span2 i{
+    display: inline-block;
+    width: 70px;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    margin-left: -35px;
+}
+.saomaZhanghuL{
+    width: 360px;
+    height: 253px;
+    /* display: block; */
+    position: relative;
+    overflow: hidden;
+}
+.saomaZhanghuL .img1{
+    position: absolute;
+    top: 40px;
+    left: 105px;
+}
+.saomaZhanghuL .img2{
+    position: absolute;
+    top: 10px;
+    left: 360px;
+}
+.img1img2{
+    overflow: hidden;
+    height: 200px;
+    width:100%;
+    transition:0.0001s;
+}
+.img1img2:hover .img1{
+    left: 30px;
+    transition:1s;
+}
+.img1img2:hover .img2{
+    left: 195px;
+}
+.saomaZhanghuL .p1{
+    width: 360px;
+    height: 16px;
+    margin-top: 35px;
+    clear: both;
+}
+.saomaZhanghuL .p1 i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-left: 95px;
+    margin-right: 10px;
+    background: url(../images/sprite.png) -164px -67px no-repeat;
+}
+.saomaZhanghuL .p1 span{
+    display: inline-block;
+    float: left;
+    width: 144px;
+    height: 12px;
+    font-size: 12px;
+    color: #333333;
+}
+.saomaZhanghuL .p1 span a{
+    color: #f60;
+}
+.saomaZhanghuR{
+    width: 360px;
+    display: none;
+    position: relative;
+}
+.inputtxt{
+    width: 282px;
+    height: 36px;
+    border:1px solid #dddddd;
+    margin:40px 0 0 25px; 
+    position: relative;
+    padding-left: 28px;
+}
+.saomaZhanghuR .txt{
+    outline: none;
+    width: 280px;
+    height: 34px;
+    line-height: 34px;
+    border:none;
+}
+.dengluimg{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:6px;
+    left: 6px;
+    background: url(../images/sprite.png) -92px -71px no-repeat;
+}
+
+.inputpassword{
+    width: 282px;
+    height: 36px;
+    border:1px solid #dddddd;
+    margin:20px 0 0 25px; 
+    position: relative;
+    padding-left: 28px;
+}
+.saomaZhanghuR .password{
+    outline: none;
+    width: 280px;
+    height: 34px;
+    line-height: 34px;
+    border:none;
+}
+.mima{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:6px;
+    left: 6px;
+    background: url(../images/sprite.png) -51px -75px no-repeat;
+}
+.duanxinwangjimima{
+    width: 310px;
+    height: 16px;
+    margin: 39px auto 0;
+}
+.duanxinwangjimima .p1{
+    width: 250px;
+    height: 1px;
+    float: left;
+}
+.duanxinwangjimima .p1 i{
+    display: inline-block;
+    width: 11px;
+    height: 16px;
+    background: url(../images/sprite.png) -22px -149px no-repeat;
+    float: left;
+    margin-right: 6px;
+}
+.duanxinwangjimima .p1 span{
+    display: inline-block;
+    width: 84px;
+    height: 12px;
+    font-size: 12px;
+    color: #333333;
+    float: left;
+}
+.duanxinwangjimima .p1 a span:hover{
+    color: #f60;
+}
+.duanxinwangjimima .p2{
+    width: 60px;
+    height: 16px;
+    float: left;
+    line-height: 16px;
+}
+.duanxinwangjimima .p2 a{
+    color: #333333;
+    font-size: 12px;
+    vertical-align: 4px;
+}
+.duanxinwangjimima .p2 a:hover{
+    color: #f60;
+}
+.saomaZhanghuR .p3{
+    width: 310px;
+    height: 40px;
+    background: #f60;
+    border-radius: 3px;
+    margin:10px auto 0;
+    text-align: center;
+}
+.saomaZhanghuR .p3 a{
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    width: 100%;
+}
+.saomaZhanghuR .p4 i{
+    display:none;
+    width: 16px;
+    height: 16px;
+    background: url(../images/sprite1.png) -99px -93px;
+    position: absolute;
+    top:-28px;
+    left:30px;
+    z-index: 999;
+    margin-right: 5px;
+}
+.saomaZhanghuR .p4 span{
+    display: none;
+    width: 285px;
+    height: 22px;
+    line-height: 22px;
+    background: #fff0f0;
+    border:1px solid red;
+    position: absolute;
+    top:-32px;
+    left: 24px;
+    font-size: 12px;
+    padding-left: 25px;
+}
+
+.mianfeizhuce{
+    width: 360px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 12px;
+}
+.mianfeizhuce a{
+    color: #333333;
+}
+.mianfeizhuce a:hover{
+    color:#f60;
+}
+.lastLogo{
+    width: 310px;
+    height: 53px;
+    margin: 10px auto 0;
+    border-top:1px solid #ccc;
+    position: relative;
+}
+.lastLogo a{
+    float: left;
+    padding-right: 5px;
+    border-right: 1px solid #dedcd5;
+    line-height: 16px;
+    margin-top: 18px;
+}
+.lastLogo .aQQ i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/sprite.png) -140px -108px no-repeat;
+    float: left;
+}
+.lastLogo .aQQ span{
+    color: #333;
+    display: inline-block;
+    float: left;
+    margin-left: 5px; 
+    font-size: 12px;
+}
+.lastLogo .aWeixin i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/sprite.png) -90px -27px no-repeat;
+    float: left;
+    margin-left: 7px;
+}
+.lastLogo .aWeixin span{
+    color: #333;
+    display: inline-block;
+    float: left;
+    margin-left: 5px; 
+    font-size: 12px;
+}
+.lastLogo .aYifubao i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/sprite.png) -119px -108px no-repeat;
+    float: left;
+    margin-left: 7px;
+}
+.lastLogo .aYifubao span{
+    color: #333;
+    display: inline-block;
+    float: left;
+    margin-left: 5px; 
+    font-size: 12px;
+}
+.lastLogo .aWeibo i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/sprite.png) 0px -149px no-repeat;
+    float: left;
+    margin-left: 7px;
+}
+.lastLogo .aWeibo span{
+    color: #333;
+    display: inline-block;
+    float: left;
+    margin-left: 5px; 
+    font-size: 12px;
+}
+.lastLogo .aMendian{
+    float: left;
+    line-height: 16px;
+    margin-top: 18px;
+    border-right: none;
+}
+.lastLogo .aMendian span{
+    color: #333;
+    display: inline-block;
+    margin-left: 9px; 
+    font-size: 12px;
+    float: left;
+}
+.lastLogo a span:hover{
+    color: #f60;
+}
+.shiyongyixiazhanghao{
+    position: absolute;
+    width: 128px;
+    height: 12px;
+    left: 50%;
+    margin-left: -64px;
+    top:-12px;
+    background: #fff;
+    text-align: center;
+}
+.shiyongyixiazhanghao span{
+    font-size: 12px;
+    color: #333333;
+}

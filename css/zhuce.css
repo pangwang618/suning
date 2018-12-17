@@ -1,0 +1,347 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd{
+    margin: 0;
+    padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+b,strong{
+    font-weight: normal;
+}
+em,i{
+    font-style: normal;
+}
+img{
+    display: block;
+}
+body{
+    background: #f8f8f8;
+}
+header{
+    width: 100%;
+    height: 88px;
+    background: #f8f8f8;
+}
+.headerBx{
+    width: 991px;
+    height: 88px;
+    margin:0 auto;
+    background: #f8f8f8;
+    
+
+}
+.headerBx h1{
+    width: 215px;
+    height: 88px;
+    float: left;
+}
+.headerBx h1 img{
+    width: 190px;
+}
+.headerBx span{
+    display: inline-block;
+    height: 88px;
+    line-height: 88px;
+    font-size: 16px;
+    color: #666666;
+    float: left;
+}
+.headerBx p{
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    margin-top: 67px;
+    float: right;
+}
+.headerBx p a{
+    color: #333333;
+}
+.biaodan{
+    width: 991px;
+    height: 442px;
+    margin:0 auto;
+    background: #fff;
+    border:1px solid #dddddd;
+    border-top:none;
+    border-top:3px solid #ff9900;
+}
+.biaodanBx{
+    width: 381px;
+    height: 386px;
+    margin: 0 auto;
+    padding-top: 55px;
+    position: relative;
+}
+.biaodanBx .p1{
+    height: 17px;
+}
+.biaodanBx .p1 i{
+    display: inline-block;
+    width: 19px;
+    height: 17px;
+    background: url(../images/sprite1.png) -75px -93px no-repeat;
+    float: left;
+}
+.biaodanBx .p1 span{
+    display: inline-block;
+    height: 17px;
+    line-height: 17px;
+    float: left;
+    margin-left: 7px;
+}
+.input-box{
+    width: 378px;
+    height: 38px;
+    border:1px solid #ccc;
+    line-height: 38px;
+    margin-bottom: 25px;
+    margin-top: 17px;
+}
+.title{
+    width: 76px;
+    padding-left: 11px;
+    float: left;
+    color: #222;
+    height: 100%;
+}
+.input-wrapper{
+    width: 291px;
+    height: 100%;
+    float: left;
+    position: relative;
+    display: block;
+}
+.input-wrapper .txt{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    font-size: 14px;
+    border:0;
+    background: 0;
+    outline: none;
+    position: relative;
+    z-index: 999;
+}
+.input-wrapper .duihao{
+    width:16px;
+    height: 16px;
+    position: absolute;
+    top:11px;
+    right: 5px;
+    background: url(../images/sprite.png) -111px -27px no-repeat;
+    opacity: 0;
+}
+.placeholder{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #cacaca;
+    line-height: 38px;
+    cursor: text;
+}
+.pGeshi{
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    color:red;
+    display: none;
+    position: absolute;
+    top:135px;
+    left: 0;
+}
+.duihao{
+    width:16px;
+    height: 16px;
+    position: absolute;
+    top:101px;
+    left:355px;
+    background:url(../images/sprite.png) -111px -27px no-repeat;
+    z-index: 999;
+    display: none;
+}
+.input-yanzhengma{
+    width: 378px;
+    height: 38px;
+    border:1px solid #ccc;
+    line-height: 38px;
+    margin-bottom: 25px;
+    margin-top: 17px;
+}
+.title1{
+    width: 80px;
+    padding-left: 11px;
+    float: left;
+    color: #222;
+    height: 100%;
+}
+.input-wrapper1{
+    width: 142px;
+    height: 100%;
+    position: relative;
+    float: left;
+    display: block;
+    line-height: 38px;
+    margin-left: 10px;
+}
+.input-wrapper1 .txt1{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    font-size: 14px;
+    border:0;
+    background: 0;
+    outline: none;
+    position: relative;
+    z-index: 999;
+}
+.placeholder1{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #cacaca;
+    line-height: 38px;
+    cursor: text;
+}
+
+
+
+.title2{
+    width: 80px;
+    padding-left: 11px;
+    float: left;
+    color: #222;
+    height: 100%;
+}
+.input-wrapper2{
+    width: 142px;
+    height: 100%;
+    position: relative;
+    float: left;
+    display: block;
+    line-height: 38px;
+    margin-left: 10px;
+}
+.input-wrapper2 .txt2{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    font-size: 14px;
+    border:0;
+    background: 0;
+    outline: none;
+    position: relative;
+    z-index: 999;
+}
+.placeholder2{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #cacaca;
+    line-height: 38px;
+    cursor: text;
+}
+.pMimatishi{
+    width:380px;
+    height: 12px;
+    line-height: 12px;
+    color:#999;
+    position: absolute;
+    top:265px;
+    left: 0;
+    font-size: 12px;
+    display: none;
+}
+.mimaDizhonggao{
+    width: 380px;
+    height: 12px;
+    position: absolute;
+    top:285px;
+    left: 0;  
+    display: none;
+}
+.mimaDizhonggao em{
+    font-size: 12px;
+    color: #333;
+    display: inline-block;
+    float: left;
+    height: 15px;
+    line-height: 15px;
+    margin-right: 5px;
+}
+.mimaDizhonggao span{
+    display: inline-block;
+    float: left;
+    height: 15px;
+    line-height: 15px;
+    width:30px;
+    text-align: center;
+    background: #f90;
+    margin-right: 5px;
+    color: #fff;
+    font-size:10px;
+}
+
+.sendCode{
+    float: left;
+    width: 133px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    background:#f5f5f5;
+    border-left:1px solid #ccc; 
+    font-size: 14px;
+    color: #333;
+}
+.sendCode:hover{
+    color: #f60;
+}
+.submit{
+    display: inline-block;
+    width: 100%;
+    line-height:40px; 
+    background: #f60;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 2px;
+    margin-top: 25px;
+}
+.submit:hover{
+    background: #f50;
+}
+.biaodanBx .p2{
+    height: 16px;
+    line-height: 16px;
+    width: 100%;
+    margin-top: 8px;
+} 
+.biaodanBx .p2 i{
+    display: inline-block;
+    width: 17px;
+    height: 15px;
+    background: url(../images/sprite1.png) -141px -93px no-repeat;
+    float: left;
+}
+.biaodanBx .p2 a{
+    display: inline-block;
+    line-height: 17px;
+    float: left;
+    color: #f60;
+    margin-left: 5px;
+}
